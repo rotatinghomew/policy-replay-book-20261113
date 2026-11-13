@@ -1,0 +1,1812 @@
+{
+  "mode": "trajectory",
+  "cutoff": 100,
+  "seed": 37,
+  "reward_version": "final-v1",
+  "decisions": [
+    {
+      "decision_id": "t0-0",
+      "request_id": "t0",
+      "user_id": "u0",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t0-1",
+      "request_id": "t0",
+      "user_id": "u0",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t1-0",
+      "request_id": "t1",
+      "user_id": "u0",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t1-1",
+      "request_id": "t1",
+      "user_id": "u0",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t2-0",
+      "request_id": "t2",
+      "user_id": "u1",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t2-1",
+      "request_id": "t2",
+      "user_id": "u1",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t3-0",
+      "request_id": "t3",
+      "user_id": "u1",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t3-1",
+      "request_id": "t3",
+      "user_id": "u1",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t4-0",
+      "request_id": "t4",
+      "user_id": "u2",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t4-1",
+      "request_id": "t4",
+      "user_id": "u2",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t5-0",
+      "request_id": "t5",
+      "user_id": "u2",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t5-1",
+      "request_id": "t5",
+      "user_id": "u2",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t6-0",
+      "request_id": "t6",
+      "user_id": "u3",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t6-1",
+      "request_id": "t6",
+      "user_id": "u3",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t7-0",
+      "request_id": "t7",
+      "user_id": "u3",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t7-1",
+      "request_id": "t7",
+      "user_id": "u3",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t8-0",
+      "request_id": "t8",
+      "user_id": "u4",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t8-1",
+      "request_id": "t8",
+      "user_id": "u4",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t9-0",
+      "request_id": "t9",
+      "user_id": "u4",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t9-1",
+      "request_id": "t9",
+      "user_id": "u4",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t10-0",
+      "request_id": "t10",
+      "user_id": "u5",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t10-1",
+      "request_id": "t10",
+      "user_id": "u5",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t11-0",
+      "request_id": "t11",
+      "user_id": "u5",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t11-1",
+      "request_id": "t11",
+      "user_id": "u5",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t12-0",
+      "request_id": "t12",
+      "user_id": "u6",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t12-1",
+      "request_id": "t12",
+      "user_id": "u6",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t13-0",
+      "request_id": "t13",
+      "user_id": "u6",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t13-1",
+      "request_id": "t13",
+      "user_id": "u6",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t14-0",
+      "request_id": "t14",
+      "user_id": "u7",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t14-1",
+      "request_id": "t14",
+      "user_id": "u7",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t15-0",
+      "request_id": "t15",
+      "user_id": "u7",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t15-1",
+      "request_id": "t15",
+      "user_id": "u7",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t16-0",
+      "request_id": "t16",
+      "user_id": "u8",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t16-1",
+      "request_id": "t16",
+      "user_id": "u8",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t17-0",
+      "request_id": "t17",
+      "user_id": "u8",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t17-1",
+      "request_id": "t17",
+      "user_id": "u8",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t18-0",
+      "request_id": "t18",
+      "user_id": "u9",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t18-1",
+      "request_id": "t18",
+      "user_id": "u9",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t19-0",
+      "request_id": "t19",
+      "user_id": "u9",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t19-1",
+      "request_id": "t19",
+      "user_id": "u9",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t20-0",
+      "request_id": "t20",
+      "user_id": "u10",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t20-1",
+      "request_id": "t20",
+      "user_id": "u10",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t21-0",
+      "request_id": "t21",
+      "user_id": "u10",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t21-1",
+      "request_id": "t21",
+      "user_id": "u10",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t22-0",
+      "request_id": "t22",
+      "user_id": "u11",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t22-1",
+      "request_id": "t22",
+      "user_id": "u11",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t23-0",
+      "request_id": "t23",
+      "user_id": "u11",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t23-1",
+      "request_id": "t23",
+      "user_id": "u11",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t24-0",
+      "request_id": "t24",
+      "user_id": "u12",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t24-1",
+      "request_id": "t24",
+      "user_id": "u12",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t25-0",
+      "request_id": "t25",
+      "user_id": "u12",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t25-1",
+      "request_id": "t25",
+      "user_id": "u12",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t26-0",
+      "request_id": "t26",
+      "user_id": "u13",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t26-1",
+      "request_id": "t26",
+      "user_id": "u13",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t27-0",
+      "request_id": "t27",
+      "user_id": "u13",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t27-1",
+      "request_id": "t27",
+      "user_id": "u13",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t28-0",
+      "request_id": "t28",
+      "user_id": "u14",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t28-1",
+      "request_id": "t28",
+      "user_id": "u14",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t29-0",
+      "request_id": "t29",
+      "user_id": "u14",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t29-1",
+      "request_id": "t29",
+      "user_id": "u14",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t30-0",
+      "request_id": "t30",
+      "user_id": "u15",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t30-1",
+      "request_id": "t30",
+      "user_id": "u15",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t31-0",
+      "request_id": "t31",
+      "user_id": "u15",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t31-1",
+      "request_id": "t31",
+      "user_id": "u15",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t32-0",
+      "request_id": "t32",
+      "user_id": "u16",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t32-1",
+      "request_id": "t32",
+      "user_id": "u16",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t33-0",
+      "request_id": "t33",
+      "user_id": "u16",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t33-1",
+      "request_id": "t33",
+      "user_id": "u16",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t34-0",
+      "request_id": "t34",
+      "user_id": "u17",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t34-1",
+      "request_id": "t34",
+      "user_id": "u17",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 0.0,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t35-0",
+      "request_id": "t35",
+      "user_id": "u17",
+      "step": 0,
+      "context": {
+        "previous_action": null,
+        "resolved": false
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.5,
+        "clarify": 0.5
+      },
+      "action": "clarify",
+      "reward": null,
+      "reward_known_at": 80
+    },
+    {
+      "decision_id": "t35-1",
+      "request_id": "t35",
+      "user_id": "u17",
+      "step": 1,
+      "context": {
+        "previous_action": "clarify",
+        "resolved": true
+      },
+      "available": [
+        "direct",
+        "clarify"
+      ],
+      "propensity": {
+        "direct": 0.1,
+        "clarify": 0.9
+      },
+      "action": "clarify",
+      "reward": 1.0,
+      "reward_known_at": 80
+    }
+  ],
+  "candidate_policies": {
+    "direct": {
+      "t0-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t0-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t1-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t1-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t2-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t2-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t3-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t3-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t4-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t4-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t5-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t5-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t6-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t6-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t7-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t7-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t8-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t8-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t9-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t9-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t10-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t10-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t11-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t11-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t12-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t12-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t13-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t13-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t14-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t14-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t15-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t15-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t16-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t16-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t17-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t17-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t18-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t18-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t19-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t19-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t20-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t20-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t21-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t21-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t22-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t22-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t23-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t23-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t24-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t24-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t25-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t25-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t26-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t26-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t27-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t27-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t28-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t28-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t29-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t29-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t30-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t30-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t31-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t31-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t32-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t32-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t33-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t33-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t34-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t34-1": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t35-0": {
+        "direct": 1,
+        "clarify": 0
+      },
+      "t35-1": {
+        "direct": 1,
+        "clarify": 0
+      }
+    }
+  }
+}
